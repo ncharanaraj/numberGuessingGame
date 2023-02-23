@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
 html {
   font-family: sans-serif;
 }
@@ -9,8 +11,31 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  color: coral;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
 .form input[type="number"] {
   width: 200px;
+  padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+}
+
+.form input[type="button"] {
+  border: none;
+  background-color: coral;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .lastResult {
